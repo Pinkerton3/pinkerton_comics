@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    color: rgb(253, 0, 0);
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+}
+body {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(235, 235, 235);
+    
+}
+img {
+    width: 400px;
+    border: 10px double white;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: border 1s,
+    width 1s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /*Add flex properties + make webpages display better*/
+}
+.logo {
+    border: none!important;
+    width: 150px;
+    transition: width;
+    padding-top: 20px;
+    float: left;
+    object-fit: contain;
+}
+
+img:hover {
+    border-color: black;
+    border-width: 1rem;
+    border-style: groove;
+    width: 450px;
+}
+.logo:hover {
+    width: 150px;
+}
+.media-icons {
+    font-size: 20px;
+}
