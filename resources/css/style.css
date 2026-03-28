@@ -31,6 +31,8 @@ body {
     margin-right: auto;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
     /*Add flex properties + make webpages display better*/
 }
 .logo {
@@ -54,6 +56,9 @@ body {
 .media-icons {
     font-size: 20px;
     text-align: right;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: black;
 }
 .describe {
     padding-right: 400px;
@@ -71,7 +76,7 @@ body {
     font-weight: 1000;
     color: rgb(58, 58, 58);
 }
-i {
+.shopping {
     font-size: 60px;
     color: darkred;
     padding-left: 130px;
