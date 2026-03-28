@@ -9,13 +9,17 @@ header {
     text-shadow: 2px 2px rgb(255, 255, 255);
 }
 body {
-    color: black;
-    text-align: center;
-    font-size: 30px;
     background-color: rgb(235, 235, 235);
+}
+.main-p {
+    color: black;
+    text-align: left;
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
     
 }
-img {
+.cover-link {
     width: 400px;
     border: 10px double white;
     padding: 10px;
@@ -39,7 +43,7 @@ img {
     object-fit: contain;
 }
 
-img:hover {
+.cover-link:hover {
     border-color: black;
     border-width: 1rem;
     border-style: groove;
@@ -67,14 +71,6 @@ img:hover {
     font-weight: 1000;
     color: rgb(58, 58, 58);
 }
-.order {
-    font-size: 25px;
-    text-align: center;
-    padding-right: 400px;
-    display: inline;
-    padding-left: 10px;
-}
-.review {
-    font-size: 25px;
-    display: inline;
+.order-review {
+    background-color: black;
 }
