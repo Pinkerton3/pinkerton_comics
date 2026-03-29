@@ -83,3 +83,10 @@ body {
     padding-right: 130px;
     padding-top: 100px;
 }
+.stores {
+    font-size: 30px;
+    color: black!important;
+    padding-left: 900px;
+    position: fixed;
+    left: 525px;
+}
