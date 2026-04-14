@@ -77,16 +77,23 @@ body {
     color: rgb(58, 58, 58);
 }
 .shopping {
-    font-size: 30px;
+    font-size: 40px;
     color: black;
     padding-left: 130px;
-    padding-right: 130px;
+    padding-right: 0px;
     padding-top: 100px;
 }
 .stores {
     font-size: 30px;
     color: black!important;
-    padding-left: 900px;
+    padding-left: 860px;
+    position: fixed;
+    left: 525px;
+}
+.reviews {
+    font-size: 30px;
+    color: black!important;
+    padding-left: 920px;
     position: fixed;
     left: 525px;
 }
