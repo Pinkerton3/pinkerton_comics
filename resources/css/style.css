@@ -43,11 +43,15 @@ body {
     float: left;
     object-fit: contain;
 }
-
+.footer {
+    border-top: 2px solid lightgrey;
+    padding-top: 5px;
+    color: rgb(93, 93, 93);
+}
 .cover-link:hover {
     border-color: black;
     border-width: 1rem;
-    border-style: groove;
+    border-style: double;
     width: 450px;
 }
 .logo:hover {
@@ -96,4 +100,16 @@ body {
     padding-left: 920px;
     position: fixed;
     left: 525px;
+}
+.map-header {
+    text-align: center;
+}
+.map-header2 {
+    text-align: center;
+}
+.map-image {
+   padding-left: 40px;
+}
+.pennsylvania, .ohio {
+    font-size: 20px;
 }
