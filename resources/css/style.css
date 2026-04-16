@@ -89,17 +89,17 @@ body {
 }
 .stores {
     font-size: 30px;
-    color: black!important;
-    padding-left: 860px;
+    color: black !important;
     position: fixed;
-    left: 525px;
+    top: 20px;
+    left: 1400px;
 }
 .reviews {
     font-size: 30px;
-    color: black!important;
-    padding-left: 920px;
+    color: black !important;
     position: fixed;
-    left: 525px;
+    top: 20px;
+    left: 1460px;
 }
 .map-header {
     text-align: center;
