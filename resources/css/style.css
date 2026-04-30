@@ -21,7 +21,6 @@ body {
 .cover-link {
     width: 400px;
     border: 10px double white;
-    padding: 10px;
     margin-left: 10px;
     margin-right: 10px;
     transition: border 1s,
@@ -80,7 +79,7 @@ body {
     font-weight: 1000;
     color: rgb(58, 58, 58);
 }
-.shopping {
+.shopping, .read {
     font-size: 40px;
     color: black;
     padding-left: 130px;
@@ -91,14 +90,14 @@ body {
     font-size: 30px;
     color: black !important;
     position: fixed;
-    top: 20px;
+    top: 50px;
     left: 1400px;
 }
 .reviews {
     font-size: 30px;
     color: black !important;
     position: fixed;
-    top: 20px;
+    top: 50px;
     left: 1460px;
 }
 .map-header {
@@ -112,4 +111,9 @@ body {
 }
 .pennsylvania, .ohio {
     font-size: 20px;
+}
+.reviews-header {
+    font-size: 30px;
+    color: black;
+    padding-left: 150px;
 }
