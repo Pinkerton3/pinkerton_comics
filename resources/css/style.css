@@ -70,7 +70,8 @@ body {
 }
 .cover {
     float: left;
-    padding-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .title {
     font-size: 25px;
@@ -79,7 +80,7 @@ body {
     font-weight: 1000;
     color: rgb(58, 58, 58);
 }
-.shopping, .read {
+.read {
     font-size: 40px;
     color: black;
     padding-left: 130px;
@@ -100,6 +101,13 @@ body {
     top: 50px;
     left: 1460px;
 }
+.news {
+    font-size: 30px;
+    color: black !important;
+    position: fixed;
+    top: 50px;
+    left: 1340px;
+}
 .map-header {
     text-align: center;
 }
@@ -116,4 +124,14 @@ body {
     font-size: 30px;
     color: black;
     padding-left: 150px;
+}
+.read-sample {
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
