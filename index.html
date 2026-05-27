@@ -1,40 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pinkerton Comics</title>
     <script src="https://kit.fontawesome.com/a59c1fbfa4.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="./resources/images/PC_favicon (2).ico" type="image/x-icon">
     <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
+    <script src="./resources/javascript/main.js"></script>
 </head>
     <body>
+        <a href="#main-content" class="skip-link">Skip to main content</a>
 
         <!--Header-->
         <header>
-            <a href="./index.html"><img class="logo" src="./resources/images/PC_comics_logo_no_back.png" width="100px"/></a>
+            <a href="./index.html"><img class="logo" src="./resources/images/PC_comics_logo_no_back.png" alt="Pinkerton Comics Logo" width="100px"/></a>
             <h1>Pinkerton Comics</h1>
-            <a href="./store_locations.html"><i class="fa-solid fa-shop stores" aria-label="view our store locations"></i></a>
-            <a href="./reviews.html"><i class="fa-solid fa-pen reviews" aria-label="Write a review"></i></a>
-            <a href="./news.html"><i class="fa-regular fa-newspaper news" aria-label="View news"></i></a>
+            <nav aria-label="Main">
+                <a href="./store_locations.html" aria-label="View our store locations"><i class="fa-solid fa-shop stores" aria-hidden="true"></i></a>
+                <a href="./reviews.html" aria-label="Write a review"><i class="fa-solid fa-pen reviews" aria-hidden="true"></i></a>
+                <a href="./news.html" aria-label="View news"><i class="fa-regular fa-newspaper news" aria-hidden="true"></i></a>
+            </nav>
         </header>
 
-        <!--Main paragraph-->
-        <p class="main-p"><strong>Written by two brothers, <em>Pinkerton Comics</em>&trade; are packed
-            with action, compelling storylines, and incredible art. <br> Drawn by Landon
-            J. Pinkerton and written by David Pinkerton III, these comics contain 
-            Christian values <br> and gripping plots.</strong></p>
-        <p class="main-p"> *WARNING. THIS WEBPAGE IS STILL UNDER PROGRESS, 
-            AND IT'S NOT PRETTY. BEWARE.*</p>
+        <!--Main content-->
+        <main id="main-content">
+            <p class="main-p"><strong>Written by two brothers, <em>Pinkerton Comics</em>&trade; are packed
+                with action, compelling storylines, and incredible art. <br> Drawn by Landon
+                J. Pinkerton and written by David Pinkerton III, these comics contain 
+                Christian values <br> and gripping plots.</strong></p>
+            <p class="main-p"> *WARNING. THIS WEBPAGE IS STILL UNDER PROGRESS, 
+                AND IT'S NOT PRETTY. BEWARE.*</p>
 
-        <!--List of comics-->
-        <a href="./PC-The_Cricket.html"><img class="cover-link" src="./resources/images/Cricket_cover.png" alt="The Cricket"/></a>
-        <!--<img src="C:\Users\susan\OneDrive\Documents\Visual_Studio_Code_Projects\Images\The_Shark_cover.png" alt="The Shark"/>-->
-        <a href="./PC-Night_Owl.html"><img class="cover-link" src="./resources/images/Night_Owl_cover.jpg" alt="Night Owl"/></a>
-        <!--<img src="C:\Users\susan\OneDrive\Documents\Visual_Studio_Code_Projects\Images\Reign-Deer.jpg" alt="Reign-Deer"/>-->
-        <a href="./IBB.html"><img class="cover-link" src="./resources/images/incredible_bunny_boy_cover.jpg"/></a>
-        <p class="media-icons">Contact us on Social Media
-        <i class="fa-brands fa-facebook" aria-label="facebook"></i>
-        <i class="fa-brands fa-square-x-twitter" aria-label="x"></i>
-        <i class="fa-brands fa-pinterest" aria-label="pinterest"></i></p>
+            <!--List of comics-->
+            <section aria-label="Featured Comics">
+                <a href="./PC-The_Cricket.html" aria-label="The Cricket comic"><img class="cover-link" src="" alt="The Cricket - Image coming soon!"/></a>
+                <!--<img src="C:\Users\susan\OneDrive\Documents\Visual_Studio_Code_Projects\Images\The_Shark_cover.png" alt="The Shark"/>-->
+                <a href="./PC-Night_Owl.html" aria-label="Night Owl comic"><img class="cover-link" src="" alt="Night Owl - Image coming soon!"/></a>
+                <!--<img src="C:\Users\susan\OneDrive\Documents\Visual_Studio_Code_Projects\Images\Reign-Deer.jpg" alt="Reign-Deer"/>-->
+                <a href="./IBB.html" aria-label="The Incredible Bunny Boy comic"><img class="cover-link" src="./resources/images/incredible_bunny_boy_cover.jpg" alt="The Incredible Bunny Boy cover"/></a>
+            </section>
+            <p class="media-icons">Contact us on Social Media<br>
+            <a href="#" aria-label="Visit our Facebook page"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
+            <a href="#" aria-label="Visit our X (Twitter) page"><i class="fa-brands fa-square-x-twitter" aria-hidden="true"></i></a>
+            <a href="#" aria-label="Visit our Pinterest page"><i class="fa-brands fa-pinterest" aria-hidden="true"></i></a></p>
+        </main>
 
         <!--Footer-->
         <footer>

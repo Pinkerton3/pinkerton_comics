@@ -1,29 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pinkerton Comics - Night Owl</title>
     <script src="https://kit.fontawesome.com/a59c1fbfa4.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="./resources/images/PC_favicon (2).ico" type="image/x-icon">
     <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
+    <script src="./resources/javascript/main.js"></script>
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <header>
-        <a href="./index.html"><img class="logo" src="./resources/images/PC_comics_logo_no_back.png" width="100px"/></a>
+        <a href="./index.html"><img class="logo" src="./resources/images/PC_comics_logo_no_back.png" alt="Pinkerton Comics Logo" width="100px"/></a>
         <h1>Pinkerton Comics - Night Owl</h1>
-        <a href="./store_locations.html"><i class="fa-solid fa-shop stores" aria-label="view our store locations"></i></a>
-        <a href="./reviews.html"><i class="fa-solid fa-pen reviews" aria-label="Write a review"></i></a>
-        <a href="./news.html"><i class="fa-regular fa-newspaper news" aria-label="View news"></i></a>
+        <nav aria-label="Main">
+            <a href="./store_locations.html" aria-label="View our store locations"><i class="fa-solid fa-shop stores" aria-hidden="true"></i></a>
+            <a href="./reviews.html" aria-label="Write a review"><i class="fa-solid fa-pen reviews" aria-hidden="true"></i></a>
+            <a href="./news.html" aria-label="View news"><i class="fa-regular fa-newspaper news" aria-hidden="true"></i></a>
+        </nav>
     </header>
     
-    <img class="cover"src="./resources/images/Night_Owl_cover.jpg" width="400" alt="Night Owl"/> <br>
-    <p class="describe">A masked vigilante. A massive criminal underworld. Action. Adventure. Plot twists. Robots. Karate. 
-        What more can you ask for?.</p>
-    <p class="title">Night Owl - Coming soon!</p>
+    <main id="main-content">
+        <img class="cover" src="" width="400" alt="Night Owl - Image coming soon!"/> <br>
+        <p class="describe">A masked vigilante. A massive criminal underworld. Action. Adventure. Plot twists. Robots. Karate. 
+            What more can you ask for?.</p>
+        <p class="title">Night Owl - Coming soon!</p>
 
-    <p class="buy-message">If you would like to pre-order a comic, or just want more info, 
-        please contact us at dep3@speedpost.net</p>
-    <a href="./night_owl_sample.html"><i class="fa-solid fa-book-open read" aria-label="Preview"></i></a>
+        <p class="buy-message">If you would like to pre-order a comic, or just want more info, 
+            please contact us at dep3@speedpost.net</p>
+        <a href="./night_owl_sample.html" aria-label="Preview Night Owl"><i class="fa-solid fa-book-open read" aria-hidden="true"></i></a>
+    </main>
 
     <!--Add footer-->
+    <footer>
+        <p class="footer">&copy;2026 Pinkerton Comics. All rights reserved.</p>
+    </footer>
 </body>
 </html>

@@ -1,6 +1,29 @@
 * {
     box-sizing: border-box;
 }
+
+/* Skip link - hidden by default but visible on focus */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #000;
+    color: #fff;
+    padding: 8px;
+    text-decoration: none;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+/* Focus indicators for keyboard navigation */
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible {
+    outline: 2px solid #fd0000;
+    outline-offset: 2px;
+}
+
 header {
     color: rgb(253, 0, 0);
     font-size: 25px;
@@ -9,6 +32,8 @@ header {
 }
 body {
     background-color: rgb(235, 235, 235);
+    font-family: cursive;
+    
 }
 .main-p {
     color: black;
@@ -89,21 +114,21 @@ body {
 }
 .stores {
     font-size: 30px;
-    color: black !important;
+    color: black;
     position: fixed;
     top: 50px;
     left: 1400px;
 }
 .reviews {
     font-size: 30px;
-    color: black !important;
+    color: black;
     position: fixed;
     top: 50px;
     left: 1460px;
 }
 .news {
     font-size: 30px;
-    color: black !important;
+    color: black;
     position: fixed;
     top: 50px;
     left: 1340px;
