@@ -43,7 +43,7 @@ body {
     padding-right: 30px;
     
 }
-.cover-link {
+.cover-link, .character-art {
     width: 400px;
     border: 10px double white;
     margin-left: 10px;
@@ -72,7 +72,7 @@ body {
     padding-top: 5px;
     color: rgb(93, 93, 93);
 }
-.cover-link:hover {
+.cover-link:hover, .character-art:hover {
     border-color: black;
     border-width: 1rem;
     border-style: double;
@@ -86,7 +86,11 @@ body {
     text-align: right;
     padding-left: 0px;
     padding-right: 0px;
-    color: black;
+    a:link, a:visited, a:hover, a:active {
+        color: black;
+        text-decoration: none;
+    }
+    text-align: center;
 }
 .describe {
     padding-right: 400px;
