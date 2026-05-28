@@ -38,7 +38,7 @@ body {
 .main-p {
     color: black;
     text-align: left;
-    font-size: 25px;
+    font-size: 20px;
     padding-left: 30px;
     padding-right: 30px;
     
@@ -62,10 +62,16 @@ body {
 .logo {
     border: none!important;
     width: 150px;
-    transition: width;
+    transition: width 1s,
+    height 1s, rotate 1s;
     padding-top: 20px;
     float: left;
     object-fit: contain;
+}
+.logo:hover {
+    width: 160px;
+    height: auto;
+    rotate: -5deg;
 }
 .footer {
     border-top: 2px solid lightgrey;
@@ -77,9 +83,6 @@ body {
     border-width: 1rem;
     border-style: double;
     width: 450px;
-}
-.logo:hover {
-    width: 150px;
 }
 .media-icons {
     font-size: 20px;
@@ -148,6 +151,12 @@ body {
 }
 .pennsylvania, .ohio {
     font-size: 20px;
+    a:link, 
+    a:visited, 
+    a:hover, 
+    a:active {
+        color: blue!important;
+    }
 }
 .reviews-header {
     font-size: 30px;
