@@ -23,7 +23,35 @@
         </header>
         <main id="main-content">
             <h2 class="reviews-header">Please Leave a Review!</h2>
-            <p>THIS WEBPAGE IS STILL IN PROGRESS. PLEASE RETURN LATER.</p>
+            <p>Please view our <a href="./posting_guidlines.html">posting guidlines</a> before you post your review.</p>
+            <!--Review form-->
+            <form action="./review_submitted.html" method="POST">
+                <h3>We would love to hear your thoughts on our comics! Please share your review below:</h3>
+                <!--Name-->
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required><br>
+                <!--Comic Title-->
+                <label for="comic">Comic Title:</label>
+                <select id="comic" name="comic">
+                    <option value="the_cricket">The Cricket</option>
+                    <option value="night_owl">Night Owl</option>
+                    <option value="ibb">The Incredible Bunny Boy</option>
+                </select> <br>
+                <!--Star Rating-->
+                <label for="rating">Your Rating in Stars:</label>
+                <select id="rating" name="rating">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select> <br>
+                <!--Review Text-->
+                <label for="review">Your Review:</label><br>
+                <textarea id="review" name="review" rows="7" cols="50" placeholder="Write your review here..." required></textarea><br>
+                <!--Submit Button-->
+                <input type="submit" value="Submit Your Review!">
+            </form>
         </main>
     <!--Footer-->
         <footer>
