@@ -32,7 +32,7 @@ header {
 }
 body {
     background-color: rgb(235, 235, 235);
-    font-family: cursive;
+    font-family: cursive, times-new-roman, serif, san-serif;
     
 }
 .main-p {
