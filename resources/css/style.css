@@ -48,8 +48,8 @@ body {
     border: 10px double white;
     margin-left: 10px;
     margin-right: 10px;
-    transition: border 1s,
-    width 1s;
+    transition: border .5s,
+    width .5s;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -62,8 +62,8 @@ body {
 .logo {
     border: none!important;
     width: 150px;
-    transition: width 1s,
-    height 1s, rotate 1s;
+    transition: width .3s,
+    height .3s, rotate .3s;
     padding-top: 20px;
     float: left;
     object-fit: contain;
@@ -118,6 +118,12 @@ body {
     padding-left: 130px;
     padding-right: 0px;
     padding-top: 100px;
+    transition: color .5s,
+    font-size .5s;
+}
+.read:hover {
+    color: #565656;
+    font-size: 45px;
 }
 .stores {
     font-size: 30px;
@@ -155,7 +161,7 @@ body {
     a:visited, 
     a:hover, 
     a:active {
-        color: blue!important;
+        color: blue;
     }
 }
 .reviews-header {
@@ -176,4 +182,13 @@ body {
 .submit-thanks {
     text-align: center;
     font-size: 30px;
+}
+.review-form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
